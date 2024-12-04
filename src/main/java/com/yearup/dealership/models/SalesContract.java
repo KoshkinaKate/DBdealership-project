@@ -1,5 +1,6 @@
 package com.yearup.dealership.models;
 
+import java.sql.Date;
 import java.time.LocalDate;
 
 public class SalesContract {
@@ -37,9 +38,7 @@ public class SalesContract {
         this.vin = vin;
     }
 
-    public LocalDate getSaleDate() {
-        return saleDate;
-    }
+    public LocalDate getSaleDate() {return saleDate;}
 
     public void setSaleDate(LocalDate saleDate) {
         this.saleDate = saleDate;
