@@ -22,12 +22,23 @@ public class InventoryDao {
             preparedStatement.setInt(2, dealershipId);
 
             int rows = preparedStatement.executeUpdate();
+            System.out.println("Rows were affected " + rows);
 
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
         public void removeVehicleFromInventory(String vin) {
-        // TODO: Implement the logic to remove a vehicle from the inventory
+            try( Connection connection = dataSource.getConnection();
+                 PreparedStatement preparedStatement = connection.prepareStatement(
+                         "DELETE FROM inventory WHERE VIN = ?"
+                 )) {
+                preparedStatement.setString(1, vin);
+
+                preparedStatement.executeUpdate();
+
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
     }
 }
