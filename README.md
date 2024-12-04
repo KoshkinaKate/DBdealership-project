@@ -1,17 +1,15 @@
 # DB dealership project
 
-## Description of the Project
+## Description of
+the Project
 
-This Java console application is designed to streamline the ordering process for a customizable Fresh & Fit sandwich shop. The application allows users to build a sandwich order by selecting various ingredients, including bread types, toppings, and sauces, and also add drinks and chips. This tool is intended for both customers of a virtual deli and backend administrators who want a seamless way to handle custom orders. The application's purpose is to simplify order management, ensure accurate pricing, and provide a receipt of the final order.
-
+This Java console application is designed to streamline the management of a car dealership. The application allows users to perform a variety of tasks, such as searching for vehicles, adding new vehicles to inventory, creating sales or lease contracts, and removing vehicles. This tool is intended for both dealership staff and backend administrators who need a seamless way to manage inventory and contracts. The application's purpose is to simplify inventory and contract management, ensure accurate processing, and provide a clear record of all actions.
 
 ## User Stories
 
-- As a user, I want to have an option to place an order so that I can start choosing items to purchase.
-- As a user, I want to be able to pick between items like a sandwich, drink, and chips so that I can customize my order with the available options.
-- As a user, I want to have the ability to customize my sandwich by selecting bread type, adding meat, cheese, and other toppings, and choosing sauces so that I can create a sandwich to my taste.
-- As a user, I want the ability to get a receipt with the items so that I have a record of my order.
-
+- As a user, I want to have an option to search for vehicles by criteria like price range, make, model, year, color, mileage, and type so that I can easily find the vehicles I am interested in.
+- As a manager, I want the ability to add new vehicles to inventory so that the database stays up-to-date with the dealership’s offerings.
+- As a manager, I want to create sales contracts by entering details like VIN, sale date, and price so that transactions are properly recorded.
 ## Setup
 
 Instructions on how to set up and run the project using IntelliJ IDEA.
@@ -20,6 +18,7 @@ Instructions on how to set up and run the project using IntelliJ IDEA.
 
 - IntelliJ IDEA: Ensure you have IntelliJ IDEA installed, which you can download from [here](https://www.jetbrains.com/idea/download/).
 - Java SDK: Make sure Java SDK is installed and configured in IntelliJ.
+- MySQL Workbench: Ensure you have MySQL Workbench installed for database setup and management.
 
 ### Running the Application in IntelliJ
 
@@ -35,51 +34,56 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 - Java: Version 17
 - IntelliJ IDEA: For development and execution.
-- Draw.io: For creating Class Diagram
+- MySQL: For database management
+- Raymond's Skeleton Code: Provided foundational structure for the project
 
 ## Demo of the project
 
-**Ordering a sandwich**
+**Search By Price Range**
+![byPrice.png](imgs/byPrice.png)
 
-![first-sandwich.png](imgs/first-sandwich.png)
+**Search By Make and Model**
 
-![second-sandwich.png](imgs/second-sandwich.png)
+![byMake:model.png](imgs/byMake%3Amodel.png)
 
-**Ordering a drink**
+**Search By Year Range**
 
-![Drink.png](imgs/Drink.png)
+![byYear.png](imgs/byYear.png)
 
-**Ordering chips**
+**Search By Color**
 
-![Chips.png](imgs/Chips.png)
+![byColor.png](imgs/byColor.png)
 
-**Order Summary (error handling)**
+**Search By Mileage Range**
 
-![OrderSum+ error.png](imgs/OrderSum%2B%20error.png)
+![byMiles.png](imgs/byMiles.png)
 
-**Order Summary with conformation**
+**Search By Type**
 
-![OrderSummary+ conformation.png](imgs/OrderSummary%2B%20conformation.png)
+![byType.png](imgs/byType.png)
 
-**Receipt**
+**Lease Contract**
 
-![Receipt.png](imgs/Receipt.png)
+![leaseContract.png](imgs/leaseContract.png)
 
-**Unit Testing**
+**Sales Contract**
 
-![UnitTesting.png](imgs/UnitTesting.png)
+![salesContract.png](imgs/salesContract.png)
+
+**Add Vehicles**
+
+![addedVehicle.png](imgs/addedVehicle.png)
+
+**Remove Vehicles**
+
+![removedVehicle.png](imgs/removedVehicle.png)
 
 ## Future Work
 
 Outline potential future enhancements or functionalities you might consider adding:
 
 - GUI Implementation: Expand the console-based application into a graphical user interface.
-- Discounts and Promotions: Include functionality for applying discounts or promotional offers.
 
-## Resources
+## Thank you
 
-List resources such as tutorials, articles, or documentation that helped you during the project.
-
-- [Draw.io Tutorial](https://drawio-app.com/tutorials/)
-- [Switch Statement Improvement](https://stackoverflow.com/questions/5086322/java-switch-statement-multiple-cases)
-- [Java Interface](https://www.youtube.com/watch?v=GhslBwrRsnw&t=35s)
+I would like to express my gratitude to Raymond for providing the foundational skeleton code that greatly assisted in the development of this project. 
