@@ -1,7 +1,6 @@
 # DB dealership project
 
-## Description of
-the Project
+## Description of the Project
 
 This Java console application is designed to streamline the management of a car dealership. The application allows users to perform a variety of tasks, such as searching for vehicles, adding new vehicles to inventory, creating sales or lease contracts, and removing vehicles. This tool is intended for both dealership staff and backend administrators who need a seamless way to manage inventory and contracts. The application's purpose is to simplify inventory and contract management, ensure accurate processing, and provide a clear record of all actions.
 
